@@ -22,8 +22,10 @@ var creatures = "unicorns";
 console.log( `My zoo has ${numberOfCreatures} ${creatures}!`);
 
 // YOU DO: What data type will be logged to the console as a result of line 22? Explain.
-// Your answer and explanation here: 
-
+// Your answer and explanation here: Much like concatenation, even thought we have
+// two data types, JS will use type coercion to convert the number data to String
+// data so that all data can be combined. As an end result line 22 will put out
+// a string.
 
 // YOU DO:
 // Write code that combines the variables below into a string that
@@ -31,6 +33,7 @@ console.log( `My zoo has ${numberOfCreatures} ${creatures}!`);
 var speedy = "quick red fox";
 var slowPoke = "lazy brown dog";
 
+console.log(`The ${speedy} jumped over the ${slowPoke}`);
 
 // YOU DO:
 // Write code that combines the variables below into a string that
@@ -40,16 +43,25 @@ var slowPoke = "lazy brown dog";
 slowPoke = "tortoise";
 speedy = "hare";
 
+console.log(`In a predictable result, the ${slowPoke} beat the ${speedy}!`);
 
 // YOU DO:
-// Declare three variables, name/content/data type of your choice. Think carefully about what 
+// Declare three variables, name/content/data type of your choice. Think carefully about what
   // you name the variables. Remember, the goal is to be concise but descriptive (it's a hard balance!)
-  // Then, log out ONE sentence that incorporates all THREE variables uisng interpolation. 
+  // Then, log out ONE sentence that incorporates all THREE variables uisng interpolation.
+
+var cropOne = "tomatoes";
+var quantityOne = 80;
+var cropTwo = "watermelons";
+var quantityTwo = 5;
+
+console.log(`So far this summer, I have grown ${quantityOne} ${cropOne} and ${quantityTwo} ${cropTwo}.`);
 
 
 //-------------------
 // FINAL CHECK
 //-------------------
 
-// Did you run this file in your terminal to make sure everything printed out to the console 
+// Did you run this file in your terminal to make sure everything printed out to the console
   // as you would expect? You should be doing this by now, and getting into the habit of it.
+  // I ran everything in my terminal and it all printed out as expected. 
