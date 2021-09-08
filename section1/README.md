@@ -41,7 +41,7 @@ Here's what we ask you do:
 
 ## Part A Super Learner Habits
 
-Read [this article](https://pubs.ppai.org/pc-today/six-habits-of-super-learners/) about the habits of Super Learners. Reflect on this - what do you already do? Does this make you want to do anything new or different as you beginthis learning journey? Jot down your notes now, and we will ask you to share some reflections with your small group at the end of this section.
+Read [this article](https://pubs.ppai.org/pc-today/six-habits-of-super-learners/) about the habits of Super Learners. Reflect on this - what do you already do? Does this make you want to do anything new or different as you begin this learning journey? Jot down your notes now, and we will ask you to share some reflections with your small group at the end of this section.
 
 ## Part B Terminal
 
@@ -95,7 +95,65 @@ Your first command should be:
 ```bash
 mkdir secretLibraryProject
 ```
-
+```bash
+/Users/grace/frontend-mod-1-prework main $cd ..
+/Users/grace  $mkdir secretLibraryProject
+/Users/grace  $cd secretLibraryProject
+/Users/grace/secretLibraryProject  $touch README.md
+/Users/grace/secretLibraryProject  $touch package.json
+/Users/grace/secretLibraryProject  $mkdir lib
+/Users/grace/secretLibraryProject  $cd lib
+/Users/grace/secretLibraryProject/lib  $touch secretLibrary.js
+/Users/grace/secretLibraryProject/lib  $touch secretBook.js
+/Users/grace/secretLibraryProject/lib  $touch secretLibrarian.js
+/Users/grace/secretLibraryProject/lib  $touch patron.js
+/Users/grace/secretLibraryProject/lib  $touch librarySystem.js
+/Users/grace/secretLibraryProject/lib  $cd ..
+/Users/grace/secretLibraryProject  $mkdir test
+/Users/grace/secretLibraryProject  $cd test
+/Users/grace/secretLibraryProject/test  $touch secretLibrary.js
+/Users/grace/secretLibraryProject/test  $touch secretBook.js
+/Users/grace/secretLibraryProject/test  $touch secretLibrarian.js
+/Users/grace/secretLibraryProject/test  $touch patron.js
+/Users/grace/secretLibraryProject/test  $touch librarySystem.js
+/Users/grace/secretLibraryProject/test  $rm secretLibrary.js
+/Users/grace/secretLibraryProject/test  $ls
+librarySystem.js	patron.js		secretBook.js		secretLibrarian.js
+/Users/grace/secretLibraryProject/test  $rm secretLibrarian.js
+/Users/grace/secretLibraryProject/test  $rm patron.js
+/Users/grace/secretLibraryProject/test  $rm secretBook.js
+/Users/grace/secretLibraryProject/test  $ls
+librarySystem.js
+/Users/grace/secretLibraryProject/test  $rm librarySystem.js
+/Users/grace/secretLibraryProject/test  $cd ..
+/Users/grace/secretLibraryProject  $rm -rf test
+/Users/grace/secretLibraryProject  $cd lib
+/Users/grace/secretLibraryProject/lib  $ls
+librarySystem.js	patron.js		secretBook.js		secretLibrarian.js	secretLibrary.js
+/Users/grace/secretLibraryProject/lib  $rm librarySystem.js
+/Users/grace/secretLibraryProject/lib  $rm patron.js
+/Users/grace/secretLibraryProject/lib  $rm secretBook.js
+/Users/grace/secretLibraryProject/lib  $rm secretLibrarian.js
+/Users/grace/secretLibraryProject/lib  $rm secretLibrary.js
+/Users/grace/secretLibraryProject/lib  $ls
+/Users/grace/secretLibraryProject/lib  $cd ..
+/Users/grace/secretLibraryProject  $ls
+README.md	lib		package.json
+/Users/grace/secretLibraryProject  $rm package.json
+/Users/grace/secretLibraryProject  $rm lib
+rm: lib: is a directory
+/Users/grace/secretLibraryProject  $rm -rf lib
+/Users/grace/secretLibraryProject  $rm README.md
+/Users/grace/secretLibraryProject  $ls
+/Users/grace/secretLibraryProject  $cd ..
+/Users/grace  $rm -rf secretLibraryProject
+/Users/grace  $ls
+Desktop			Movies			best_animals		git_homework		turing
+Documents		Music			cool_project		mod0_student_resources
+Downloads		Pictures		frontend-mod-1-prework	session_practice
+Library			Public			git_and_gh_practice	to_do
+/Users/grace  $
+```
 Note that in the command provided above, the dashes preceding the directory name were not used in the actual directory name. The dashes are just used as a diagram aide, and is a common pattern you will see in other documentation.
 
 ### Deleting Things
@@ -310,7 +368,7 @@ Let's take a look at why that resulted in a string. We have a variable called `s
 > 👩‍💻 PAUSE here, and complete the exercises in `concatenation.js`
 
 ### Interpolation
-In addition to concatenation, you may also have seen interpolation used to inject values into strings! One benefit of interpolation is that it can be easier to read in longer strings and don't require concatenating separate strings together. 
+In addition to concatenation, you may also have seen interpolation used to inject values into strings! One benefit of interpolation is that it can be easier to read in longer strings and don't require concatenating separate strings together.
 
 Interpolation requires slightly different syntax to inject values into a string. Follow the below formula to utilize interpolation:
 1. Use the backtick (same key as the `~`, or the key to the left of the `1` key on a mac) to wrap your entire string
