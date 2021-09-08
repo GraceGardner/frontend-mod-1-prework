@@ -17,7 +17,7 @@ function printName() {
   console.log("Severus Snape");
 };
 
-printName(); 
+printName();
 printName();
 printName();
 printName();
@@ -26,6 +26,12 @@ printName();
 
 // YOU DO: Write a function named sayHello that logs to the console "Oh, Hello!"
 // Then, call the function 2 times.
+function sayHello() {
+  console.log("Oh, Hello!");
+};
+
+sayHello();
+sayHello();
 
 //-------------------
 // PART 2: Arguments and Parameters
@@ -34,19 +40,36 @@ printName();
 // YOU DO: Write a function named greetMe that takes an argument, a String, of a name.
 // The function should print out the value of the String that was passed in.
 // Then, call the function 3 times, each time, passing it a different name.
+function greetMe(name) {
+  console.log(name);
+};
+
+greetMe("Stacy");
+greetMe("Sam");
+greetMe("Koda");
 
 
 
 // YOU DO: Write a function that takes in 2 numbers as arguments, Numbers, and logs their sum
 // Then, call that function 3 times, each time, passing in 2 different Numbers.
+function add(num1, num2) {
+  console.log(num1 + num2);
+};
 
+add(8, 5);
+add(2, 3);
+add(20, 25);
 
 
 // YOU DO🎈: Write a function that takes in two strings and prints a concatenation
 // of those two strings, for example the arguments could be ("Oscar", "Ruck") and
 // the end result might be "Oscar and Ruck are BFFS".  Then, call that function.
 
+function goodDogs(dog1, dog2) {
+  console.log(dog1 + " and " + dog2 + " are good dogs.");
+};
 
+goodDogs("Maka", "Koda");
 
 //-------------------
 // PART 3: Naming is Hard
@@ -59,7 +82,9 @@ that it is reasonable to type, but descriptive enough that others can infer the 
 Look at the code you wrote for the previous YOU DO🎈 - what did you name the function, and why?
 What did you name each parameter, and why?
 
-EXPLAIN:
+EXPLAIN: I named this function goodDogs because it contains two dog Parameters and
+logs a string that concatenates the dog names with strings saying the are good dogs.
+I used these names because they seem to describe what they all are but are also relatively short. 
 
 
 */
