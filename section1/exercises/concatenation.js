@@ -51,11 +51,11 @@ console.log("In a predictable result, the " + slowPoke + " beat the " + speedy +
   // you name the variables. Remember, the goal is to be concise but descriptive (it's a hard balance!)
   // Then, log out ONE sentence that incorporates all THREE variables.
 
-var dogsName = "Koda";
-var dogsAge = 2;
+var dogName = "Koda";
+var dogAge = 2;
 var breed = "Schipperke";
 
-console.log("My dog " + dogsName + " is a " + dogsAge + " year old " + breed + ".");
+console.log("My dog " + dogName + " is a " + dogAge + " year old " + breed + ".");
 
 
 //-------------------
@@ -64,3 +64,5 @@ console.log("My dog " + dogsName + " is a " + dogsAge + " year old " + breed + "
 
 // Did you run this file in your terminal to make sure everything printed out to the console
   // as you would expect? You should be doing this by now, and getting into the habit of it.
+  // everything has been run and double checked.
+  // Refactor complete
