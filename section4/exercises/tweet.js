@@ -26,7 +26,7 @@ class Tweet {
     this.comments.push(newComment);
   }
 /// I created this login method, because it made more sense to me
-// to login to an account before being able to assemble a tweet. 
+// to login to an account before being able to assemble a tweet.
   login(author) {
     this.author = author;
   }
@@ -46,13 +46,13 @@ tweet1.comment("tweets are rad!");
 console.log(tweet1);
 
 
-
 var tweet2 = new Tweet("Turing is cool!", "Sept. 10 2021, 1:45PM");
 tweet2.login("Sammie")
 tweet2.like();
 tweet2.comment("heck yeah it is!");
 
 console.log(tweet2);
+
 
 var tweet3 = new Tweet("I love plants!", "Sept. 10 2021, 1:48PM");
 tweet3.login("Steve");
