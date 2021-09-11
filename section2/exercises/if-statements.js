@@ -47,9 +47,9 @@ var dogAge = 3;
 if (dogAge <= 2) {
   console.log("puppy!");
 } else if (dogAge >= 10) {
-  console.log('old pup');
+  console.log("old pup");
 } else {
-  console.log('adult pup');
+  console.log("adult pup");
 }
 
 
@@ -70,14 +70,16 @@ When numQuarters = 2, program should log "I have enough money for a gumball"
 When numQuarters = 3, program should log "I have enough money for a gumball"
 */
 
-var numQuarters = 0;
+var numQuarters = 1;
 
 // Write your conditional here
-if (numQuarters >= 1) {
+if (numQuarters >= 2) {
 console.log("I have enough money for a gumball");
 } else {
 console.log("I don't have enough money for a gumball");
 }
+
+
 
 /*
 YOU DO:
@@ -112,5 +114,7 @@ cupsOfFlour must be more than or equal than too AND hasSauce must be strictly eq
 to the value of true in order to make pizza. Using a logical AND we are able to evaluate
 if both the first operand and the second are true. If they are, then the logical AND
 operator will return a value of true, executing our console log of "I can make pizza".
-If both operands do not evaluate as true, then we move on to our else statement. 
+If both operands do not evaluate as true, then we move on to our else statement.
 */
+
+//refactor complete 
