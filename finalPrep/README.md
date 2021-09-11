@@ -31,13 +31,13 @@ In Mod 0 you've learned about different techniques for managing your time at Tur
 
 When you are finished, add screenshots of your calendar so we can provide feedback if needed!
 
-- `![Screen Shot 2021-09-10 at 11 18 22 PM](https://user-images.githubusercontent.com/42048868/132937237-2fca985c-4f33-4614-b748-c45f524f81c4.png)`
-- `![Screen Shot 2021-09-10 at 11 18 33 PM](https://user-images.githubusercontent.com/42048868/132937266-72bb7f09-d00a-4d3d-8c83-e63aca6c145b.png)
-`
+- ![Screen Shot 2021-09-10 at 11 18 22 PM](https://user-images.githubusercontent.com/42048868/132937237-2fca985c-4f33-4614-b748-c45f524f81c4.png)
+- ![Screen Shot 2021-09-10 at 11 18 33 PM](https://user-images.githubusercontent.com/42048868/132937266-72bb7f09-d00a-4d3d-8c83-e63aca6c145b.png)
+
 /// The third week for the current mod1 starts with a holiday/day off so I figured I would wait to see how our official Calendar
 /// looks and make adjustments when it's out. Or simply import it and let it over right what I have manually typed in.
-- `![Screen Shot 2021-09-10 at 11 18 41 PM](https://user-images.githubusercontent.com/42048868/132937274-61970c67-9e8c-424d-bb35-56f1150ad0e5.png)
-`
+- ![Screen Shot 2021-09-10 at 11 18 41 PM](https://user-images.githubusercontent.com/42048868/132937274-61970c67-9e8c-424d-bb35-56f1150ad0e5.png)
+
 
 ### Mentorship Prep
 Mentorship is an integral part of the Turing experience and will help jumpstart your technical career. In order to get your mentor relationship started on the right foot, please complete the following deliverables:
