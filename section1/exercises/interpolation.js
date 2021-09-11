@@ -22,8 +22,8 @@ var creatures = "unicorns";
 console.log( `My zoo has ${numberOfCreatures} ${creatures}!`);
 
 // YOU DO: What data type will be logged to the console as a result of line 22? Explain.
-// Your answer and explanation here: Much like concatenation, even thought we have
-// two data types, JS will use type coercion to convert the number data to String
+// Your answer and explanation here: Much like concatenation, even though we have
+// two data types, JS will use type coercion to convert the Number data to String
 // data so that all data can be combined. As an end result line 22 will put out
 // a string.
 
@@ -64,4 +64,5 @@ console.log(`So far this summer, I have grown ${quantityOne} ${cropOne} and ${qu
 
 // Did you run this file in your terminal to make sure everything printed out to the console
   // as you would expect? You should be doing this by now, and getting into the habit of it.
-  // I ran everything in my terminal and it all printed out as expected. 
+  // I ran everything in my terminal and it all printed out as expected.
+  // Refector complete 
