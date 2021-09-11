@@ -42,7 +42,7 @@ console.log(firstName, isHungry, numberOfPets);
   // Explain.
   /* I knew that a first name would be simple text, so I used a string for that one.
   isHungry is a question which is why I used a boolean. numberOfPets is specifically
-  asking for a number so that is waht I used. */
+  asking for a number so that is what I used. */
 
 
 // YOU DO:
@@ -68,3 +68,4 @@ console.log(healthySnacks + junkFoodSnacks);
 
 // Did you run this file in your terminal to make sure everything printed out to the console
 // as you would expect? I did and everything came back as expected.
+// review complete 
