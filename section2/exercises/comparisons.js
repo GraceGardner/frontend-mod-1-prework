@@ -148,4 +148,4 @@ console.log(lovesToPlay && age <= 1);
 
 // Did you run this file in your terminal to make sure everything printed out to the console
 // as you would expect? Yes I did. This is how I found that there was a typo of console.logs rather than
-// console.log on line 87. 
+// console.log on line 87.
