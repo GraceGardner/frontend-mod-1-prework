@@ -123,12 +123,12 @@ var chargerType = "car";
 // This if statement evaluates three different conditions. If percentBatteryLeft
 // is more than or equal to 15 OR if both hasCharger is true AND chargerType is "car", our
 //program will execute the following code block
-if(percentBatteryLeft >= 15 || hasCharger === true && chargerType === "car"){
+if(percentBatteryLeft >= 15 || hasCharger === true && chargerType === "car") {
 // if one of the above condition is met, this line will log the string
 // "You can call an Uber!"
   console.log("You can call an Uber!");
 // if the above conditions were not met, the following code block will execute
-} else {
+  } else {
 // logs the string "Shoot! You can't call and Uber..." in our console
   console.log("Shoot! You can't call an Uber...");
 };
