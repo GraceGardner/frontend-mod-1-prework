@@ -29,16 +29,16 @@ var dog2 = new Dog();
 console.log(dog2);
 
 // Prompt 2: Snack
-class Snacks {
+class Snack {
   constructor() {
 
   }
 }
 
-var snack1 = new Snacks();
+var snack1 = new Snack();
 console.log(snack1);
 
-var snack2 = new Snacks();
+var snack2 = new Snack();
 console.log(snack2);
 
 // Prompt 3: Shirt
@@ -128,7 +128,7 @@ var pooch2 = new Pooch("Koda", "black", 2);
 console.log(pooch2);
 
 // Prompt 2: Snack
-class FavoriteSnacks {
+class FavoriteSnack {
   constructor(type, healthy, ranking) {
     this.type = type;
     this.isHealthy = healthy;
@@ -136,10 +136,10 @@ class FavoriteSnacks {
   }
 }
 
-var walkers = new FavoriteSnacks("shortbread cookies", false, "third place");
+var walkers = new FavoriteSnack("shortbread cookies", false, "third place");
 console.log(walkers);
 
-var honeyCrisp = new FavoriteSnacks("apples", true, "first place");
+var honeyCrisp = new FavoriteSnack("apples", true, "first place");
 console.log(honeyCrisp);
 
 // Prompt 3: Shirt
