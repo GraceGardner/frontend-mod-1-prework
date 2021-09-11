@@ -70,7 +70,7 @@ var email = {
   to:"Cindy Lou Who",
   subject:"Merry Christmas",
   body:"Wishing you a very merry Christmas",
-  isRead:false
+  hasRead:false
 }
 
 console.log(email);
